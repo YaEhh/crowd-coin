@@ -11,7 +11,6 @@ class RequestRow extends Component {
         await campaign.methods.approveRequest(this.props.id).send({
             from: accounts[0]
         });
-        console.log("test");
     };
 
     onFinalize = async () => {
